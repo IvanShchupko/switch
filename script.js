@@ -185,7 +185,21 @@ math.addEventListener('change',function(){
     numberSecondValue = numberSecond.value
     switch(mathValue){
         case'*':
-            console.log(Math('numberFirstValue * numberSecondValue'))
+            let mnozenie = Number(numberFirstValue) * Number(numberSecondValue)
+            alert(mnozenie)
+            break
+        case'/':
+            let delenie = Number(numberFirstValue) / Number(numberSecondValue)
+            alert(delenie)
+            break
+        case'+':
+            let plus = Number(numberFirstValue) + Number(numberSecondValue)
+            alert(plus)
+            break
+        case'-':
+            let minus = Number(numberFirstValue) - Number(numberSnumberSecondValueecond)
+            alert(minus)
+            break
     }
 })
 
@@ -250,3 +264,51 @@ lang.addEventListener('change',function(){
             break
     }
 }) */
+
+    /* Напиши скрипт вибору опції доставки товару. Опція зберігається в змінній option: 1 - самовивіз, 
+    2 - кур"єр, 3 - пошта. В змінну message записати повідомлення в залежності від опції.
+        - 'Ви зможете забрати товар завтра з 12:00 в нашому офісі'
+        - 'Кур"єр доставить замовлення завтра з 9:00 до 18:00'
+        - 'Посилка буде відправлена сьогодні'
+        - 'Вам передзвонит менеджер'. */
+
+/* let choise = prompt('Напишить вид доставки')
+switch(choise){
+    case'самовивіз':
+        alert('Ви зможете забрати товар завтра з 12:00 в нашому офісі')
+        break
+    case"кур'єр":
+        alert("Кур'єр доставить замовлення завтра з 9:00 до 18:00")
+        break
+    case'пошта':
+        alert('Посилка буде відправлена сьогодні')
+        break
+    default:
+        alert('Вам передзвонит менеджер')
+} */
+
+/*      Напиши скрипт вибору готеля по кількості зірок.
+    1 - 20$, 2 - 30$, 3 - 50$, 4 - 70$, 5 - 120$
+    Якщо в змінній stars щось окрім чисел 1-5, виведи рядок
+    'Токої кількості зірок немає' */
+
+/* let stars = prompt('How many stars hotel do you want?')
+switch(stars){
+    case'1':
+        alert('20$')
+        break
+    case'2':
+        alert('30$')
+        break
+    case'3':
+        alert('50$')
+        break
+    case'4':
+        alert('70$')
+        break
+    case'5':
+        alert('120$')
+        break
+    default:
+        alert('This number of stars does not exist')
+} */
