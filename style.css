@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
 }
-.select ,.day ,.month ,.light ,.number1 ,.number2 {
+.select ,.day ,.month ,.light ,.number1 ,.number2, .lang {
     width: 170px;
     height: 50px;
     border: 1px solid #000;

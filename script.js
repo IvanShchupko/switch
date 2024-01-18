@@ -236,6 +236,17 @@ switch(true){
 lang.addEventListener('change',function(){
     langValue = lang.value
     switch(langValue){
-        case:
+        case'En':
+            alert('April')
+            break
+        case'Ua':
+            alert('Апріль')
+            break
+        case'Fr':
+            alert('Janvier')
+            break
+        case'Ru':
+            alert('Октябрь')
+            break
     }
 }) */
