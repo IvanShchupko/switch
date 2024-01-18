@@ -183,6 +183,7 @@ math.addEventListener('change',function(){
     mathValue = math.value
     numberFirstValue = numberFirst.value
     numberSecondValue = numberSecond.value
+    alert('Не можна ділити на нуль')
     switch(mathValue){
         case'*':
             let mnozenie = Number(numberFirstValue) * Number(numberSecondValue)
